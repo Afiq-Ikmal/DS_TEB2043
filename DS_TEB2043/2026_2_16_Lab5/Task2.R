@@ -1,0 +1,6 @@
+limit <- 5
+
+for (i in 1:limit) {
+  cube <- i^3
+  cat("Number is:", i, "and cube of the", i, "is :", cube, "\n")
+}
